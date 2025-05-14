@@ -5,8 +5,8 @@ on:
     branches:
       - main
     paths:
-      - 'src/main/java/*.java'
-      - 'src/test/java/*.java'
+      - 'src/main/java/**/*.java'
+      - 'src/test/java/**/*.java'
 jobs:
   build_and_publish:
     runs-on: ubuntu-latest
