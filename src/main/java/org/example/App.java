@@ -11,7 +11,7 @@ public class App
     public static void main( String[] args )
     {
         if (args.length != 2) {
-            System.err.println("❌ Erreur : Veuillez fournir exactement deux entiers en arguments!!!!");
+            System.err.println("❌ Erreur : Veuillez fournir exactement deux entiers en arguments!");
             System.err.println("➡️  Usage : java -jar maSuperAppJava.jar <entier1> <entier2>");
             System.exit(1);
         }
