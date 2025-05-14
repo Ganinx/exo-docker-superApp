@@ -21,7 +21,7 @@ jobs:
           java-version: '21'
 
       - name: Build the project (Maven)
-        run: mvn clean install
+        run: mvn clean package
 
       - name: List files in target directory
         run: ls -l target
